@@ -1,0 +1,32 @@
+{
+  "name": "bordeux/file-dropbox-provider-bundle",
+  "type": "file-provider-bundle",
+  "description": "Symfony File dropbox bundle provider for File Bundle",
+  "keywords": [
+    "dropbox",  "file-bundle"
+  ],
+  "homepage": "http://bednaczyk.me/file-dropbox-provider-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Bednarczyk",
+      "email": "krzysztof@bednarczyk.me"
+    }
+  ],
+  "require": {
+    "bordeux/file-bundle" : "1.*",
+    "dropbox/dropbox-sdk": "1.1.*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Bordeux\\Bundle\\FileDropboxProviderBundle\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}

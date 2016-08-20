@@ -1,0 +1,5 @@
+services:
+    bordeux.file.provider.s3:
+        class: Bordeux\Bundle\FileDropboxProviderBundle\Storage\Factory\S3Factory
+        tags:
+          -  { name: bordeux.file.provider }
